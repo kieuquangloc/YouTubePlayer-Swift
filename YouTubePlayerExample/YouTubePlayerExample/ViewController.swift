@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     @IBAction func play(_ sender: UIButton) {
@@ -40,8 +40,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func loadVideo(_ sender: UIButton) {
-        playerView.playerVars = ["playsinline": "1" as AnyObject]
-        playerView.loadVideoID("WMxjddqyVno")
+        //https://developers.google.com/youtube/player_parameters
+        playerView.playerVars = ["playsinline": 1 as AnyObject,
+                                "showinfo": 0 as AnyObject,
+                                "controls": 0 as AnyObject
+        ]
+        playerView.loadVideoID("4BCxqrhsjOw")
     }
 
     @IBAction func loadPlaylist(_ sender: UIButton) {
