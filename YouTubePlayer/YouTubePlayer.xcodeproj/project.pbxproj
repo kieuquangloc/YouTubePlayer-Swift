@@ -114,10 +114,11 @@
 			};
 			buildConfigurationList = 502AE8591A475FD500306AD1 /* Build configuration list for PBXProject "YouTubePlayer" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 502AE8551A475FD500306AD1;
 			productRefGroup = 502AE8601A475FD500306AD1 /* Products */;
@@ -252,7 +253,7 @@
 				PRODUCT_NAME = YouTubePlayer;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -270,7 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = YouTubePlayer;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
