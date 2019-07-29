@@ -276,7 +276,7 @@ open class YouTubePlayerView: UIView, UIWebViewDelegate {
         }
 
         // Success, return JSON string
-        return NSString(data: jsonData!, encoding: String.Encoding.utf8.rawValue) as? String
+        return NSString(data: jsonData!, encoding: String.Encoding.utf8.rawValue) as String?
     }
 
 
@@ -323,7 +323,7 @@ open class YouTubePlayerView: UIView, UIWebViewDelegate {
 
     // MARK: UIWebViewDelegate
 
-    open func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+    open func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebView.NavigationType) -> Bool {
 
         let url = request.url
 

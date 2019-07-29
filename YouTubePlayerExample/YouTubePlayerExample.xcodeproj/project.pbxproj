@@ -122,7 +122,7 @@
 			};
 			buildConfigurationList = 50BB8ADD1A7D914C00216B49 /* Build configuration list for PBXProject "YouTubePlayerExample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
