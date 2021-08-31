@@ -276,7 +276,7 @@ open class YouTubePlayerView: UIView, UIWebViewDelegate {
         }
 
         // Success, return JSON string
-        return NSString(data: jsonData!, encoding: String.Encoding.utf8.rawValue) as String?
+        return NSString(data: jsonData!, encoding: String.Encoding.utf8.rawValue) as? String
     }
 
 
